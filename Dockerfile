@@ -1,4 +1,4 @@
-FROM php:8.2-cli
+FROM php:8.2-fpm
 
 # Установка расширений
 RUN apt-get update && apt-get install -y \
@@ -16,6 +16,3 @@ RUN apt-get update && apt-get install -y \
 COPY --from=composer:2.6 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www
-
-# Открываем порт
-EXPOSE 8000
