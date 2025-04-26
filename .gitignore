@@ -1,0 +1,16 @@
+.idea/
+
+vendor/
+node_modules/
+.env
+
+dbdata/
+
+*.log
+
+src/bootstrap/cache/
+src/storage/
+src/storage/*.key
+
+# Конфигурация Docker Desktop
+docker-compose.override.yml
