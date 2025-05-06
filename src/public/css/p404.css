@@ -1,0 +1,21 @@
+.p404-img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto 40px;
+    padding-left: 15px;
+}
+
+.p404-btn {
+    background: #F04131;
+    color:#ffffff;
+    padding: 20px 40px;
+    border-radius: 2px;
+}
+
+.p404-btn:hover {
+    color: #F04131;
+    background:#ffffff;
+}
+
+

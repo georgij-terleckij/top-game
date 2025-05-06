@@ -1,0 +1,42 @@
+.htooltip, .htooltip:visited, .tooltip:active {
+    color: #0077AA;
+    text-decoration: none;
+}
+
+.htooltip:hover {
+    color: #0099CC;
+}
+
+.htooltip span {
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-left: 430px;
+    margin-top: 5px;
+    opacity: 0;
+    padding: 10px 10px 10px 40px;
+    position: absolute;
+    text-decoration: none;
+    visibility: hidden;
+    width: 450px;
+    z-index: 10;
+    font-size: 12px;
+    font-weight: 100;
+    -moz-transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+.htooltip span p {
+
+    line-height: 17px;
+    color: #ccc;
+}
+.htooltip:hover span {
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+}

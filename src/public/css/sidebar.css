@@ -1,0 +1,48 @@
+/* ------------- sidebar ------------- */
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2em;
+    min-height: 2em;
+}
+
+.sidebar ul > li > a {
+    font-size: 0.9rem;
+}
+
+.sidebar ul > li > a > i {
+    width: 25px;
+    font-size: 0.8rem;
+}
+
+/* ------------- sidebar END------------- */
+
+.sidebar-link:hover{
+    color: #eb2d1c;
+}
+
+.sidebar-banner {
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.5)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33000000', endColorstr='#80000000', GradientType=1);
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+
+}
+
+.sidebar-img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    padding: 10px;
+}
+
+.sidebar-banner a:hover {
+    opacity: 0.3!important;
+}

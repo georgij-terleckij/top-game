@@ -1,0 +1,16 @@
+.ann_name {
+    color: #ffffff;
+}
+
+.cut-b {
+    width: 100px;
+}
+
+.block-info .name-bg {
+    background: transparent;
+    margin-left: 16px;
+}
+
+.box-bg {
+    background: rgba(245, 103, 103, 0.1);
+}
